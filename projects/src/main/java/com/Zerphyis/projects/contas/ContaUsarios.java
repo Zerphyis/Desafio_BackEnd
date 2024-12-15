@@ -9,7 +9,7 @@ import lombok.EqualsAndHashCode;
 import java.text.DateFormat;
 
 @Entity
-@Table(name = "tb_usuarios")
+@Table(name = "tb_contas")
 @EqualsAndHashCode(of = "id")
 public class ContaUsarios {
     @Id
